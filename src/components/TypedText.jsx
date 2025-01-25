@@ -10,7 +10,7 @@ export default function TypedText() {
   useEffect(() => {
     // Инициализация Typed.js
     typedInstance.current = new Typed(typedElement.current, {
-      strings: ['Hello, World!', 'Welcome to my portfolio!', 'I love coding!'], // Строки для анимации
+      strings: ['Web Designer', 'Web Developer', 'Front Ent Developer'], // Строки для анимации
       typeSpeed: 50, // Скорость печати
       backSpeed: 30, // Скорость удаления текста
       loop: true, // Повтор текста
@@ -25,7 +25,7 @@ export default function TypedText() {
   return (
     <span
       ref={typedElement}
-      className="typed-text-output text-xl font-semibold text-blue-600"
+      className="typed-text-output text-xl font-semibold text-white"
     />
   );
 }
