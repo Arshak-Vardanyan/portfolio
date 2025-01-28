@@ -14,7 +14,7 @@ export default function About () {
                         src="https://scontent.fevn12-1.fna.fbcdn.net/v/t39.30808-6/351102896_222787977275696_850180651668170307_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=Knnuhk4zY8IQ7kNvgEKsA5L&_nc_oc=AdhB3mFPN1b_NxEPXsND3UEaafRXlmjwh2XEqtrsE8ZSSycGFYAcOOegOlE-WiUVeLc&_nc_zt=23&_nc_ht=scontent.fevn12-1.fna&_nc_gid=A2rSjNZd1leB7AX_HVdXUnB&oh=00_AYChRsmXM1ivXiIJiItAkX5kG5DaOD48MlSHmS76-57z9Q&oe=679E7555"
                         className="w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] rounded-lg shadow-lg"
                     />
-                    <div className="flex flex-col flex-wrap max-w-[800px]">
+                    <div className="flex flex-col flex-wrap max-w-[800px] break-words break-all">
                         <h1 className="mb-4 font-inter font-bold text-xl sm:text-4xl">Front End Developer  & Web Developer</h1>
                         <p className="text-gray-400 font-normal pb-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum possimus repudiandae, aperiam quam blanditiis corrupti hic, delectus, itaque tenetur nesciunt sed inventore? Sequi ipsum, velit autem possimus harum quod pariatur iusto consequatur, reprehenderit voluptatum laboriosam totam eius fugit aut accusantium officiis? Illum numquam reprehenderit, incidunt et totam dolorum praesentium quidem.</p>
                         <div className="flex gap-10">
