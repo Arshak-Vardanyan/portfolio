@@ -10,7 +10,7 @@ export default function TypedText() {
   useEffect(() => {
     // Инициализация Typed.js
     typedInstance.current = new Typed(typedElement.current, {
-      strings: ['Web Designer', 'Web Developer', 'Front Ent Developer'], // Строки для анимации
+      strings: ['Web Designer', 'Web Developer', 'Front End Developer'], // Строки для анимации
       typeSpeed: 50, // Скорость печати
       backSpeed: 30, // Скорость удаления текста
       loop: true, // Повтор текста

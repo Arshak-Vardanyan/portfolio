@@ -22,7 +22,7 @@ export default function Skills () {
     }, []);
   
     return (
-      <section className="max-w-full bb py-6 sm:py-14 " id='skill'>
+      <section className="max-w-full py-6 sm:py-14 " id='skill'>
         <div className="flex flex-col items-center">
             <div className="flex items-center justify-center relative text-xl sm:text-5xl mx-auto font-bold">
                 <span className="relative inset-0 text-[50px] sm:text-[150px] text-[#dee2e6] tracking-wide text-stroke-white  ">SKILLS</span>

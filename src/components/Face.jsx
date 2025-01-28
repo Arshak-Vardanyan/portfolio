@@ -2,13 +2,13 @@ import TypedText from "@/components/TypedText";
 
 export default function Face() {
   return (
-    <div className="flex flex-col items-center  bb justify-center mx-auto bg-teal-500">
+    <div className="flex flex-col items-center  justify-center mx-auto bg-teal-500">
       {/* Контейнер для контента */}
-      <div className="flex flex-col sm:flex-row gap-4 sm:gap-10 items-center bb mx-auto  py-7">
+      <div className="flex flex-col sm:flex-row gap-4 sm:gap-10 items-center mx-auto  py-7">
         {/* Изображение */}
         <div className="flex-shrink-0 ">
           <img
-            src="https://i.wpimg.pl/1280x/filerepo.grupawp.pl/api/v1/display/embed/85ec08c2-56e2-4a80-83ca-def715fbab45"
+            src="https://scontent.fevn2-1.fna.fbcdn.net/v/t39.30808-6/360082122_6507926712622829_2838295882231631781_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=xUGpBgXijoQQ7kNvgFgPW1y&_nc_oc=AdjDQCNWMK9xjDshzg-5PuTBjH48aOBpZenk9SJ5SmsIaxznehED2cMZwWmM3sck26A&_nc_zt=23&_nc_ht=scontent.fevn2-1.fna&_nc_gid=A1IrgTuUepkwumy9JQOzyTD&oh=00_AYDvSc4ro0b1pGp6Xv475eAXsUPXaSAQh1WAUvrEI3RkCg&oe=679E6B61"
             className=" w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] rounded-full border-4 border-white shadow-lg"
             alt="Profile"
           />
@@ -18,7 +18,7 @@ export default function Face() {
         <div className="flex flex-col items-center sm:items-start justify-center">
           <p className="text-xs sm:text-lg text-white mb-2">I'm</p>
           <p className="text-2xl sm:text-4xl font-extrabold text-stroke-white text-transparent">
-            MEGAN FOX
+            Arshak Vardanyan
           </p>
           <p className="text-xl text-white mt-2">
             <TypedText />

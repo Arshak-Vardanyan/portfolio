@@ -3,7 +3,7 @@
 export default function Contact () {
 
     return (
-        <section className="py-10 bb" id="contact">
+        <section className="py-10" id="contact">
             <div className="" >
                 <div className="flex items-center justify-center relative text-xl sm:text-5xl mx-auto font-bold">
                     <span className="relative inset-0 text-[50px] sm:text-[150px] text-[#dee2e6] tracking-wide text-stroke-white  ">CONTACT</span>
