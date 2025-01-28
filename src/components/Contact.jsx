@@ -1,4 +1,4 @@
-
+'use client'
 
 export default function Contact () {
 
@@ -31,7 +31,10 @@ export default function Contact () {
                     />
                 </div>
                 <div className="flex justify-center mt-5">
-                    <button className="text-teal-500 border border-teal-500 px-6 py-3 rounded-3xl font-bold"> Send Message</button>
+                    <button 
+                        className="text-teal-500 border border-teal-500 px-6 py-3 rounded-3xl font-bold"
+                        onClick={() => alert(`Sorry,but in this moment i can't help you`)}
+                    > Send Message</button>
                 </div>
             </div>
         </section>
