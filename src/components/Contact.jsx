@@ -10,7 +10,7 @@ export default function Contact () {
                     <span className="absolute text-teal-500 ">CONTACT ME</span>
                 </div>
                 <div className="flex justify-center flex-col max-w-[50%] mx-auto py-7 gap-4">
-                    <div className="grid gap-4 w-full grid-cols-2">
+                    <div className="grid gap-4 w-full grid-cols-1 sm:grid-cols-2">
                         <input 
                             className="sm:px-4 py-2 border border-gray-600 rounded-3xl"
                             placeholder="Your Name"

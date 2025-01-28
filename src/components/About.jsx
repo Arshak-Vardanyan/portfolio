@@ -17,7 +17,7 @@ export default function About () {
                     <div className="flex flex-col flex-wrap max-w-[800px] break-words break-all">
                         <h1 className="mb-4 font-inter font-bold text-xl sm:text-4xl">Front End Developer  & Web Developer</h1>
                         <p className="text-gray-400 font-normal pb-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum possimus repudiandae, aperiam quam blanditiis corrupti hic, delectus, itaque tenetur nesciunt sed inventore? Sequi ipsum, velit autem possimus harum quod pariatur iusto consequatur, reprehenderit voluptatum laboriosam totam eius fugit aut accusantium officiis? Illum numquam reprehenderit, incidunt et totam dolorum praesentium quidem.</p>
-                        <div className="flex gap-10">
+                        <div className="flex flex-col sm:flex-row gap-10">
                             <div className="flex flex-col text-lg gap-2 sm:gap-6 text-gray-600 font-inter">
                                 <p>Name: Arshak Vardanyan</p>
                                 <p>Degree: Master</p>
