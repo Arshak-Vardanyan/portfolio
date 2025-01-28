@@ -25,7 +25,7 @@ export default function TypedText() {
   return (
     <span
       ref={typedElement}
-      className="typed-text-output text-xl font-semibold text-white"
+      className="typed-text-output text-sm sm:text-xl font-semibold text-white"
     />
   );
 }

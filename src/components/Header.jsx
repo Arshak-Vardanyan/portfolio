@@ -10,7 +10,7 @@ const navigation = [
   { name: 'Skill', href: '#skill', current: true },
   // { name: 'Service', href: '#service', current: false },
   { name: 'Portfolio', href: '#portfolio', current: false },
-  { name: 'Contact us', href: '#contact', current: false },
+  { name: 'Contact', href: '#contact', current: false },
 ]
 
 function classNames(...classes) {
@@ -64,7 +64,7 @@ export default function Header() {
     const handleScroll = () => {
 
       const moving = window.scrollY;
-      if(!isOver){
+      if(!isOver && position > 50){
         setVisible(position > moving);
       }
       setPosition(moving);

@@ -22,20 +22,20 @@ export default function Skills () {
     }, []);
   
     return (
-      <div className="w-full py-14 ">
+      <section className="max-w-full bb py-6 sm:py-14 " id='skill'>
         <div className="flex flex-col items-center">
-            <div className="flex items-center justify-center relative text-5xl mx-auto font-bold">
-                <span className="relative inset-0 text-[150px] text-[#dee2e6] tracking-wide text-stroke-white  ">SKILLS</span>
+            <div className="flex items-center justify-center relative text-xl sm:text-5xl mx-auto font-bold">
+                <span className="relative inset-0 text-[50px] sm:text-[150px] text-[#dee2e6] tracking-wide text-stroke-white  ">SKILLS</span>
                 <span className="absolute text-teal-500 ">MY SKILLS</span>
             </div>
-            <div className="grid grid-cols-2 gap-6 max-w-[1200px] py-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-6 max-w-[1200px] py-4 sm:py-10">
                 <div>
                     <div className=" flex  justify-between">
                         <span>JavaScript</span>
                         <span>88%</span>
                     </div>
                     <progress
-                        className="w-[587px] [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-slate-300 [&::-webkit-progress-value]:bg-red-600"
+                        className="max-w-[587px] sm:w-[587px] [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-slate-300 [&::-webkit-progress-value]:bg-red-600"
                         value={progress}
                         max="110"
                     ></progress>
@@ -46,7 +46,7 @@ export default function Skills () {
                         <span>90%</span>
                     </div>
                     <progress
-                        className="w-[587px] [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-slate-300 [&::-webkit-progress-value]:bg-teal-700 [&::-moz-progress-bar]:bg-green-400"
+                        className="max-w-[587px] sm:w-[587px] [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-slate-300 [&::-webkit-progress-value]:bg-teal-700 [&::-moz-progress-bar]:bg-green-400"
                         value={progress}
                         max="108"
                     ></progress>
@@ -57,7 +57,7 @@ export default function Skills () {
                         <span>80%</span>
                     </div>
                     <progress
-                        className="w-[587px] [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-slate-300 [&::-webkit-progress-value]:bg-black [&::-moz-progress-bar]:bg-green-400"
+                        className="max-w-[587px] sm:w-[587px] [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-slate-300 [&::-webkit-progress-value]:bg-black [&::-moz-progress-bar]:bg-green-400"
                         value={progress}
                         max="120"
                     ></progress>
@@ -68,7 +68,7 @@ export default function Skills () {
                         <span>90%</span>
                     </div>
                     <progress
-                        className="w-[587px] [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-slate-300 [&::-webkit-progress-value]:bg-orange-400 [&::-moz-progress-bar]:bg-green-400"
+                        className="max-w-[587px] sm:w-[587px] [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-slate-300 [&::-webkit-progress-value]:bg-orange-400 [&::-moz-progress-bar]:bg-green-400"
                         value={progress}
                         max="108"
                     ></progress>
@@ -79,7 +79,7 @@ export default function Skills () {
                         <span>70%</span>
                     </div>
                     <progress
-                        className="w-[587px] [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-slate-300 [&::-webkit-progress-value]:bg-cyan-500 [&::-moz-progress-bar]:bg-green-400"
+                        className="max-w-[587px] sm:w-[587px] [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-slate-300 [&::-webkit-progress-value]:bg-cyan-500 [&::-moz-progress-bar]:bg-green-400"
                         value={progress}
                         max="135"
                     ></progress>
@@ -90,13 +90,13 @@ export default function Skills () {
                         <span>60%</span>
                     </div>
                     <progress
-                        className="w-[587px] [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-slate-300 [&::-webkit-progress-value]:bg-green-400 [&::-moz-progress-bar]:bg-green-400"
+                        className="max-w-[587px] sm:w-[587px] [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-slate-300 [&::-webkit-progress-value]:bg-green-400 [&::-moz-progress-bar]:bg-green-400"
                         value={progress}
                         max="150"
                     ></progress>
                 </div>
             </div>
         </div>
-      </div>
+      </section>
     );
 }
