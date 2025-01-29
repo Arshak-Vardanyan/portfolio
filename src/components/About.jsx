@@ -3,7 +3,7 @@
 export default function About () {
 
     return (
-        <section className="max-w-[85%] mx-auto pt-[70px]" id="about">
+        <section className="max-w-[100%] mx-auto pt-[70px] " id="about">
             <div className="mx-auto">
                 <div className="flex items-center justify-center relative text-xl sm:text-5xl mx-auto font-bold">
                     <span className="relative inset-0 text-[50px] sm:text-[150px] text-[#dee2e6] tracking-wide text-stroke-white ">ABOUT</span>
