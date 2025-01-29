@@ -2,7 +2,7 @@ import TypedText from "@/components/TypedText";
 
 export default function Face() {
   return (
-    <div className="flex flex-col items-center  justify-center mx-auto ">
+    <div className="flex flex-col items-center  justify-center mx-auto bg-teal-500">
       {/* Контейнер для контента */}
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-10 items-center mx-auto  py-7">
         {/* Изображение */}
