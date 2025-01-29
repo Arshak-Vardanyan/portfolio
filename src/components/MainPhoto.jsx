@@ -6,8 +6,8 @@ export default function MainPhoto () {
         <div>
             <div className="w-full">
                 <img 
-                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNk1Zd30znYdddCZe0CrZYF3DJ9DqEcyDO3ogWTR169BTwtG1JboxawnCRIwjJBy1TmhDMrh_21fSVAbGzr2Yg3JeChIdP7fLq2ZXgy7u464ZNgfdC1eRQnu391-pOPG-n5ZKt69TDeh8/s1600/world_flags_globe_2.gif" 
-                    className="w-full h-full object-none  fixed z-[-1] "
+                    src="https://i.pinimg.com/originals/de/55/66/de5566cdb662d375525cb9061033ba4d.gif" 
+                    className="w-full h-full object-cover  fixed z-[-1] "
                 />
             </div>
         </div>
